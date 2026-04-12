@@ -160,7 +160,7 @@ git_color() {
 
   if [[ $git_status =~ "nothing to commit, working tree clean" ]]; then 
     branch_color="green"
-  elif [[ $git_status =~ "no changes added to commit" ]]; then
+  elif [[ $git_status =~ "no changes added to commit" || "nothing added to commit but untracked files present" ]]; then
     branch_color="red"
   elif [[ $git_status =~ "Changes to be committed" ]]; then
     branch_color="214"
@@ -168,11 +168,10 @@ git_color() {
     branch_color="blue"
   fi
   branch_color="%F{$branch_color}$1%f"
-
   echo "$branch_color"
 }
 
 setopt PROMPT_SUBST
 PROMPT='%F{blue}%1~%f $(git_color ${vcs_info_msg_0_})%F{green}$ %f'
 
-RPROMPT='%F{green}$(basename $(git rev-parse --show-toplevel 2>/dev/null) 2>/dev/null)'
+RPROMPT='%F{green}⟪$(basename $(git rev-parse --show-toplevel 2>/dev/null) 2>/dev/null)⟫'
