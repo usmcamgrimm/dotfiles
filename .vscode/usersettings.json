@@ -1,0 +1,138 @@
+{
+  "code-runner.clearPreviousOutput": true,
+    "code-runner.ignoreSelection": true,
+    "code-runner.languageIdToFileExtensionMap": {
+
+        "bat": ".bat",
+        "powershell": ".ps1",
+        "typescript": ".ts"
+    },
+    "editor.tabSize": 2,
+    "editor.fontFamily": "Hack, Arial, Consolas, 'Courier New', monospace",
+    "settingsSync.ignoredSettings": [
+        "editor.fontFamily"
+    ],
+    "editor.minimap.enabled": false,
+    "github.copilot.enable": {
+      "*": true,
+      "plaintext": false,
+      "markdown": true,
+      "scminput": false,
+      "ruby": true
+    },
+    "auto-close-tag.activationOnLanguage": [
+        
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ],
+    "workbench.startupEditor": "none",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.detectIndentation": false,
+    "sortJSON.excludedPaths": [
+      
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDragAndDrop": false,
+    "editor.suggest.showWords": false,
+    "editor.suggest.showEvents": false,
+    "editor.suggest.showEnums": false,
+    "editor.suggest.showEnumMembers": false,
+    "editor.suggest.showDeprecated": false,
+    "editor.suggest.showCustomcolors": false,
+    "editor.suggest.showConstructors": false,
+    "editor.suggest.showConstants": false,
+    "editor.suggest.showColors": false,
+    "editor.suggest.showClasses": false,
+    "editor.snippetSuggestions": "none",
+    "security.allowedUNCHosts": [
+      "nwebint.mh.methodisthealth.org",
+      "swebint.mh.methodisthealth.org",
+      "wsl.localhost"
+    ],
+    "liveServer.settings.donotVerifyTags": true,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "remote.autoForwardPortsSource": "hybrid",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "rubyLsp.rubyExecutablePath": "z:\\home\\usmcamgrimm\\.rbenv\\versions\\3.3.5\\bin\\ruby",
+    "workbench.settings.applyToAllProfiles": [
+      "editor.cursorStyle"
+    ],
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "chat.instructionsFilesLocations": {
+      ".github/instructions": true,
+      ".claude/rules": true,
+      "~/.copilot/instructions": true,
+      "~/.claude/rules": true,
+      "C:\\Users\\usmca\\AppData\\Local\\Temp\\postman-http-request-post-response.instructions.md": true,
+      "C:\\Users\\usmca\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md": true,
+      "C:\\Users\\AG1579~1\\AppData\\Local\\Temp\\postman-http-request-post-response.instructions.md": true,
+      "C:\\Users\\AG1579~1\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md": true,
+      "C:\\Users\\usmca\\AppData\\Local\\Temp\\postman-collections-post-response.instructions.md": true,
+      "C:\\Users\\usmca\\AppData\\Local\\Temp\\postman-collections-pre-request.instructions.md": true,
+      "C:\\Users\\usmca\\AppData\\Local\\Temp\\postman-folder-post-response.instructions.md": true,
+      "C:\\Users\\usmca\\AppData\\Local\\Temp\\postman-folder-pre-request.instructions.md": true,
+      "C:\\Users\\AG1579~1\\AppData\\Local\\Temp\\postman-collections-post-response.instructions.md": true,
+      "C:\\Users\\AG1579~1\\AppData\\Local\\Temp\\postman-collections-pre-request.instructions.md": true,
+      "C:\\Users\\AG1579~1\\AppData\\Local\\Temp\\postman-folder-post-response.instructions.md": true,
+      "C:\\Users\\AG1579~1\\AppData\\Local\\Temp\\postman-folder-pre-request.instructions.md": true
+    },
+    "html.format.wrapAttributesIndentSize": 2,
+    "editor.indentSize": "tabSize",
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "[css]": {
+      "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "chat.viewSessions.orientation": "stacked",
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "terminal.integrated.profiles.linux": {
+      "bash": {
+        "path": "bash",
+        "icon": "terminal-bash"
+      },
+      "zsh": {
+        "path": "/usr/bin/zsh"
+      },
+      "fish": {
+        "path": "fish"
+      },
+      "tmux": {
+        "path": "tmux",
+        "icon": "terminal-tmux"
+      },
+      "pwsh": {
+        "path": "pwsh",
+        "icon": "terminal-powershell"
+      }
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "workbench.iconTheme": "bearded-icons",
+    "workbench.colorTheme": "Bearded Theme Black & Ruby"
+}
